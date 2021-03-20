@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css demo</title>
+        <!-- this is the tag for css it goes in the head tags --> 
+        <style>
+            /*below we have a grouped selector*/
+            p, li {
+                color:firebrick;
+                font-size: 1.1em;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                text-decoration: line-through;
+                /*to do same thing with % font size =: 200% */
+                /*you look up different formatting on w3 schools*/
+            }
+            /*below is an element tag*/
+            body {
+                color:blue
+            }
+            /*only a tags inside of p tags will be orange*/
+           p a{
+                color: chocolate;
+            }
+            #firstp {
+                color: deeppink;
+            }
+            /*this is for class selectors*/
+            .thirdp {color:gold}
+        </style>
+        <!-- p is our selector, color is our property, fuscia is the value -->
+        <!-- declaration is color:fuscia-->
+        <!--1em is default font size-, 2 is twice the size .5 is half the size->
+    </head>
+    <body>
+        <!---id values must be unique we cant have two elements with first p values-->
+        <p id= "firstp">hgfjfdtyfgvv jkvjkv</p>
+        <p>fjfghjfhjyffyufjhj <a href= "http://www.google.com">Google</a></p>
+        <p class="thirdp"> third pg </p>
+        <!--class attributes can be used 9over and over again with the same value-->
+        <ul>
+            <li>my list item</li>
+            <li><a href="http://www.google.com">Google</a></li>
+        </ul>
+    </body>
+    </html>
