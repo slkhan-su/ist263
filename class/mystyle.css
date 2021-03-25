@@ -1,0 +1,22 @@
+h1 {
+    color: #ff0000;
+    /*Hex  color requires the #*/
+    /* six digits starting with red green then nlue*/
+}
+a:link {
+    color: #00ff00
+}
+a:visited {
+    color: #0000ff
+}
+a:hover {
+    color:#8000ff;
+    background-color: #00eeff
+}
+.lookdifferent:hover {color:#999999}
+body {
+    background-color: #c9c9cb;
+    background-size: 200px;
+    background-image: url(../images/bio.png);
+}
+p {background-color: #ffffff;}
