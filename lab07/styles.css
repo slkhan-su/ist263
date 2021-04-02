@@ -1,0 +1,9 @@
+h1, h2, h3, caption, th {color: #f56992;}
+a:link {color:#6470c8;}
+body {
+    background-color: #cbb9ef;
+}
+nav{background-color:#ecb7db;}
+nav a {color: #3956d7;}
+nav a:hover {color: #16ab5e;}
+p,tr,td,li,form {color:#8a2be2}
