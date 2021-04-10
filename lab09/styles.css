@@ -1,0 +1,30 @@
+h1, h2, h3, caption, th {color: #f56992;}
+a:link {color:#6470c8;}
+body {
+    background-color: #cbb9ef;
+}
+nav{background-color:#0e0ee8;}
+nav a {color: #bcc3e0;}
+nav a:hover {color: #16ab5e;}
+
+p,tr,td,li,form {color:#8a2be2}
+
+.quote {float:right;}
+.clear {clear:both;}
+header {float:right;}
+header {margin:30px}
+
+.address{float:left}
+.box1, .box2 {background-color: darkgray;
+    border-radius: 2em;
+    margin: 40px;}
+.linkedin {width: 15%;}
+.box2 {display:flex}
+.map, .form, .address, .email {margin:10px}
+.box1 {padding: 2em}
+
+.box2 {flex-wrap: wrap;}
+
+@media only screen and (max max-width: 600px)
+{nav a {display: block;}}
+nav a {width:100%}
