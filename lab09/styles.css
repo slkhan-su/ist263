@@ -23,8 +23,9 @@ header {margin:30px}
 .map, .form, .address, .email {margin:10px}
 .box1 {padding: 2em}
 
+.banner {max-width: 100%;}
 .box2 {flex-wrap: wrap;}
 
-@media only screen and (max max-width: 600px)
+@media only screen and (max-width: 600px)
 {nav a {display: block;}}
 nav a {width:100%}
