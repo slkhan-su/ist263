@@ -2,29 +2,46 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>"contact"</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+    #skipbutton {
+        position: absolute;
+        /*position based on top left of viewport*/
+        left: -999px;
+        background-color:blanchedalmond;
+        border: 1px black;
+        /*element is off screen*/
+
+    }
+    #skipbutton:focus {
+        position: absolute;
+        left:10px;
+    }
+</style>
 </head>
 <body>
     <nav>
-        <a href="index.html" tabindex="2">Home</a>
-        <a href="skills.html" tab index="3">Skills</a>
-        <a href="contact.html" tab index="4">Contact</a>
+        <a href="index.html">Home</a> <span>|</span>
+        <a href="skills.html">Skills </a> <span>|</span>
+        <a href="contact.html">Contact</a>
     </nav>
     <h1 class="special">Contact</h1>
     <div class="box1">
-        <div class="address">
-    <p>
+        <div class ="address">
+   <p>
         Sarah Khan 
     </p>
     <p>
         2 Holiday Gate
-<p>
+    </p>
+    <p>
     New Hyde Park, NY 11040
     </p>
 
 
-    </div>
+        </div>
     <div class="email">
         <a href="mailto:slkhan@syr.edu">Sarah Khan Email
     </a> 
