@@ -7,7 +7,7 @@ nav{background-color:#0e0ee8;}
 nav a {color: #bcc3e0;}
 nav a:hover {color: #16ab5e;}
 
-p,tr,td,li,form {color:#8a2be2}
+p,tr,td,li,form {color:rgba(0, 0, 0, 0.733)}
 
 .quote {float:right;}
 .clear {clear:both;}
