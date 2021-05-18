@@ -42,6 +42,8 @@ p {
     padding: 5px;
     display: flexbox;
 }
+.form
+{text-align: center;}
 
 @media only screen and (max-width: 600px)
 {nav a {display: block;}}

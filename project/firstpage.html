@@ -11,6 +11,11 @@
   h1 {font-family: 'Lora', serif;}
   
 </style>
+<script>
+  function Thanks () {
+          alert ('Thank you for submitting your memories!')
+      }
+  </script>
 </head>
 <body>
   <nav>
@@ -43,5 +48,16 @@
 generation American. They have worked so hard to be where they are right now, especially my
 mother. She is my role model and I am so happy to create this website for her.
 </p>
+<br>
+<div class="form">
+<form action="mailto:slkhan@syr.edu" method="POST">
+  <label for="firstname">Enter first name:</label>
+  <input type="text" name="firstname" id="firstname"> <br>
+  <label for="comments">What's Your Favorite Memory With Shelly? </label><br>
+<textarea name="comments" id="comments" rows="10" cols="100"> Enter Your Thoughts please!
+</textarea> <br>
+<input type="submit" value="Submit" onclick="Thanks();"> 
+</div>
+</form>
 </body>
 </html>
